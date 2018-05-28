@@ -40,7 +40,7 @@ module.exports = function(app) {
             var matchIndex = indexOfSmallest(arrayScores)
             console.log(arrayCompare)
             console.log(arrayScores)
-            res.json(friendsData[indexOfSmallest(arrayScores)]);
+            res.json(friendsData[indexOfSmallest(arrayCompare)]);
             //friendsData.push(req.body);
             console.log(matchIndex)
 });
