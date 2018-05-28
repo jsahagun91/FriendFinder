@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/jsahagun91/FriendFinder/issues"
   },
-  "homepage": "https://github.com/jsahagun91/FriendFinder#readme"
+  "homepage": "https://github.com/jsahagun91/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+
 }
+ }
